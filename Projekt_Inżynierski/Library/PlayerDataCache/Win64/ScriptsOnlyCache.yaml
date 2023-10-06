@@ -1,0 +1,1715 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - AudioManager
+    - AudioManagerLoader
+    - Bomb
+    - BombTower
+    - Castle
+    - EnemyController
+    - EnemyHealthController
+    - EnemyWaveSpawner
+    - LevelManager
+    - LevelSelectButton
+    - LevelSelectController
+    - MainMenu
+    - MoneyManager
+    - Path
+    - Projectile
+    - ProjectileTower
+    - RemoveParentAtStart
+    - SimpleEnemySpawner
+    - SimpleRotate
+    - SlowdownTower
+    - Tower
+    - TowerButton
+    - TowerManager
+    - TowerUpgradeController
+    - TowerUpgradePanel
+    - UIController
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.Slider
+  serializedClasses:
+    Assembly-CSharp:
+    - EnemyWave
+    - UpgradeStage
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.Slider/SliderEvent
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: NewGame
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerUpgradePanel
+    methodName: UpgradeFireRate
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerUpgradePanel
+    methodName: UpgradeRange
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerUpgradePanel
+    methodName: RemoveTower
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: CloseTowerUpgradePanel
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: LevelSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: PauseUnpause
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: TryAgain
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: LevelSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: NextLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: LevelSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: PauseUnpause
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelSelectButton
+    methodName: LoadLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelSelectButton
+    methodName: LoadLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelSelectButton
+    methodName: LoadLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelSelectButton
+    methodName: LoadLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelSelectButton
+    methodName: LoadLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelSelectButton
+    methodName: LoadLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerUpgradePanel
+    methodName: UpgradeFireRate
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerUpgradePanel
+    methodName: UpgradeRange
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerUpgradePanel
+    methodName: RemoveTower
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: CloseTowerUpgradePanel
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: LevelSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: PauseUnpause
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: TryAgain
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: LevelSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: NextLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: LevelSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: PauseUnpause
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerUpgradePanel
+    methodName: UpgradeFireRate
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerUpgradePanel
+    methodName: UpgradeRange
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerUpgradePanel
+    methodName: RemoveTower
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: CloseTowerUpgradePanel
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: LevelSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: PauseUnpause
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: TryAgain
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: LevelSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: NextLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: LevelSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: PauseUnpause
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerUpgradePanel
+    methodName: UpgradeFireRate
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerUpgradePanel
+    methodName: UpgradeRange
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerUpgradePanel
+    methodName: RemoveTower
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: CloseTowerUpgradePanel
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: LevelSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: PauseUnpause
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: TryAgain
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: LevelSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: NextLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: LevelSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: PauseUnpause
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerUpgradePanel
+    methodName: UpgradeFireRate
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerUpgradePanel
+    methodName: UpgradeRange
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerUpgradePanel
+    methodName: RemoveTower
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: CloseTowerUpgradePanel
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: LevelSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: PauseUnpause
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: TryAgain
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: LevelSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: NextLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: LevelSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerButton
+    methodName: SelectTower
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: PauseUnpause
+  sceneClasses:
+    Assets/Scenes/Level Select.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1528}
+    - Class: 114
+      Script: {instanceID: 1530}
+    - Class: 114
+      Script: {instanceID: 2008}
+    - Class: 114
+      Script: {instanceID: 2192}
+    - Class: 114
+      Script: {instanceID: 2352}
+    - Class: 114
+      Script: {instanceID: 3042}
+    - Class: 114
+      Script: {instanceID: 3242}
+    - Class: 114
+      Script: {instanceID: 3302}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 4078}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Main Menu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1528}
+    - Class: 114
+      Script: {instanceID: 1530}
+    - Class: 114
+      Script: {instanceID: 1858}
+    - Class: 114
+      Script: {instanceID: 1908}
+    - Class: 114
+      Script: {instanceID: 2008}
+    - Class: 114
+      Script: {instanceID: 2514}
+    - Class: 114
+      Script: {instanceID: 2874}
+    - Class: 114
+      Script: {instanceID: 2878}
+    - Class: 114
+      Script: {instanceID: 2940}
+    - Class: 114
+      Script: {instanceID: 3042}
+    - Class: 114
+      Script: {instanceID: 3104}
+    - Class: 114
+      Script: {instanceID: 3242}
+    - Class: 114
+      Script: {instanceID: 3254}
+    - Class: 114
+      Script: {instanceID: 3302}
+    - Class: 114
+      Script: {instanceID: 3428}
+    - Class: 114
+      Script: {instanceID: 3548}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 4078}
+    - Class: 114
+      Script: {instanceID: 4232}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Test 1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1528}
+    - Class: 114
+      Script: {instanceID: 1530}
+    - Class: 114
+      Script: {instanceID: 1586}
+    - Class: 114
+      Script: {instanceID: 1626}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1802}
+    - Class: 114
+      Script: {instanceID: 1858}
+    - Class: 114
+      Script: {instanceID: 1908}
+    - Class: 114
+      Script: {instanceID: 1984}
+    - Class: 114
+      Script: {instanceID: 2002}
+    - Class: 114
+      Script: {instanceID: 2008}
+    - Class: 114
+      Script: {instanceID: 2628}
+    - Class: 114
+      Script: {instanceID: 2874}
+    - Class: 114
+      Script: {instanceID: 2878}
+    - Class: 114
+      Script: {instanceID: 3042}
+    - Class: 114
+      Script: {instanceID: 3224}
+    - Class: 114
+      Script: {instanceID: 3242}
+    - Class: 114
+      Script: {instanceID: 3254}
+    - Class: 114
+      Script: {instanceID: 3282}
+    - Class: 114
+      Script: {instanceID: 3302}
+    - Class: 114
+      Script: {instanceID: 3428}
+    - Class: 114
+      Script: {instanceID: 3430}
+    - Class: 114
+      Script: {instanceID: 3470}
+    - Class: 114
+      Script: {instanceID: 3538}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 3646}
+    - Class: 114
+      Script: {instanceID: 3688}
+    - Class: 114
+      Script: {instanceID: 3882}
+    - Class: 114
+      Script: {instanceID: 4014}
+    - Class: 114
+      Script: {instanceID: 4038}
+    - Class: 114
+      Script: {instanceID: 4078}
+    - Class: 114
+      Script: {instanceID: 4100}
+    - Class: 114
+      Script: {instanceID: 4232}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Test 2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1528}
+    - Class: 114
+      Script: {instanceID: 1530}
+    - Class: 114
+      Script: {instanceID: 1586}
+    - Class: 114
+      Script: {instanceID: 1626}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1802}
+    - Class: 114
+      Script: {instanceID: 1858}
+    - Class: 114
+      Script: {instanceID: 1908}
+    - Class: 114
+      Script: {instanceID: 1984}
+    - Class: 114
+      Script: {instanceID: 2002}
+    - Class: 114
+      Script: {instanceID: 2008}
+    - Class: 114
+      Script: {instanceID: 2628}
+    - Class: 114
+      Script: {instanceID: 2874}
+    - Class: 114
+      Script: {instanceID: 2878}
+    - Class: 114
+      Script: {instanceID: 3042}
+    - Class: 114
+      Script: {instanceID: 3224}
+    - Class: 114
+      Script: {instanceID: 3242}
+    - Class: 114
+      Script: {instanceID: 3254}
+    - Class: 114
+      Script: {instanceID: 3282}
+    - Class: 114
+      Script: {instanceID: 3302}
+    - Class: 114
+      Script: {instanceID: 3428}
+    - Class: 114
+      Script: {instanceID: 3430}
+    - Class: 114
+      Script: {instanceID: 3470}
+    - Class: 114
+      Script: {instanceID: 3538}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 3646}
+    - Class: 114
+      Script: {instanceID: 3688}
+    - Class: 114
+      Script: {instanceID: 3882}
+    - Class: 114
+      Script: {instanceID: 4014}
+    - Class: 114
+      Script: {instanceID: 4038}
+    - Class: 114
+      Script: {instanceID: 4078}
+    - Class: 114
+      Script: {instanceID: 4100}
+    - Class: 114
+      Script: {instanceID: 4232}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Test 3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1528}
+    - Class: 114
+      Script: {instanceID: 1530}
+    - Class: 114
+      Script: {instanceID: 1586}
+    - Class: 114
+      Script: {instanceID: 1626}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1802}
+    - Class: 114
+      Script: {instanceID: 1858}
+    - Class: 114
+      Script: {instanceID: 1908}
+    - Class: 114
+      Script: {instanceID: 1984}
+    - Class: 114
+      Script: {instanceID: 2002}
+    - Class: 114
+      Script: {instanceID: 2008}
+    - Class: 114
+      Script: {instanceID: 2628}
+    - Class: 114
+      Script: {instanceID: 2874}
+    - Class: 114
+      Script: {instanceID: 2878}
+    - Class: 114
+      Script: {instanceID: 3042}
+    - Class: 114
+      Script: {instanceID: 3224}
+    - Class: 114
+      Script: {instanceID: 3242}
+    - Class: 114
+      Script: {instanceID: 3254}
+    - Class: 114
+      Script: {instanceID: 3282}
+    - Class: 114
+      Script: {instanceID: 3302}
+    - Class: 114
+      Script: {instanceID: 3428}
+    - Class: 114
+      Script: {instanceID: 3430}
+    - Class: 114
+      Script: {instanceID: 3470}
+    - Class: 114
+      Script: {instanceID: 3538}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 3646}
+    - Class: 114
+      Script: {instanceID: 3688}
+    - Class: 114
+      Script: {instanceID: 3882}
+    - Class: 114
+      Script: {instanceID: 4014}
+    - Class: 114
+      Script: {instanceID: 4038}
+    - Class: 114
+      Script: {instanceID: 4078}
+    - Class: 114
+      Script: {instanceID: 4100}
+    - Class: 114
+      Script: {instanceID: 4232}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Test 4.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1528}
+    - Class: 114
+      Script: {instanceID: 1530}
+    - Class: 114
+      Script: {instanceID: 1586}
+    - Class: 114
+      Script: {instanceID: 1626}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1802}
+    - Class: 114
+      Script: {instanceID: 1858}
+    - Class: 114
+      Script: {instanceID: 1908}
+    - Class: 114
+      Script: {instanceID: 1984}
+    - Class: 114
+      Script: {instanceID: 2002}
+    - Class: 114
+      Script: {instanceID: 2008}
+    - Class: 114
+      Script: {instanceID: 2628}
+    - Class: 114
+      Script: {instanceID: 2874}
+    - Class: 114
+      Script: {instanceID: 2878}
+    - Class: 114
+      Script: {instanceID: 3042}
+    - Class: 114
+      Script: {instanceID: 3224}
+    - Class: 114
+      Script: {instanceID: 3242}
+    - Class: 114
+      Script: {instanceID: 3254}
+    - Class: 114
+      Script: {instanceID: 3282}
+    - Class: 114
+      Script: {instanceID: 3302}
+    - Class: 114
+      Script: {instanceID: 3428}
+    - Class: 114
+      Script: {instanceID: 3430}
+    - Class: 114
+      Script: {instanceID: 3470}
+    - Class: 114
+      Script: {instanceID: 3538}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 3646}
+    - Class: 114
+      Script: {instanceID: 3688}
+    - Class: 114
+      Script: {instanceID: 3882}
+    - Class: 114
+      Script: {instanceID: 4014}
+    - Class: 114
+      Script: {instanceID: 4038}
+    - Class: 114
+      Script: {instanceID: 4078}
+    - Class: 114
+      Script: {instanceID: 4100}
+    - Class: 114
+      Script: {instanceID: 4232}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Test 5.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1528}
+    - Class: 114
+      Script: {instanceID: 1530}
+    - Class: 114
+      Script: {instanceID: 1586}
+    - Class: 114
+      Script: {instanceID: 1626}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1802}
+    - Class: 114
+      Script: {instanceID: 1858}
+    - Class: 114
+      Script: {instanceID: 1908}
+    - Class: 114
+      Script: {instanceID: 1984}
+    - Class: 114
+      Script: {instanceID: 2002}
+    - Class: 114
+      Script: {instanceID: 2008}
+    - Class: 114
+      Script: {instanceID: 2628}
+    - Class: 114
+      Script: {instanceID: 2874}
+    - Class: 114
+      Script: {instanceID: 2878}
+    - Class: 114
+      Script: {instanceID: 3042}
+    - Class: 114
+      Script: {instanceID: 3224}
+    - Class: 114
+      Script: {instanceID: 3242}
+    - Class: 114
+      Script: {instanceID: 3254}
+    - Class: 114
+      Script: {instanceID: 3282}
+    - Class: 114
+      Script: {instanceID: 3302}
+    - Class: 114
+      Script: {instanceID: 3428}
+    - Class: 114
+      Script: {instanceID: 3430}
+    - Class: 114
+      Script: {instanceID: 3470}
+    - Class: 114
+      Script: {instanceID: 3538}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 3646}
+    - Class: 114
+      Script: {instanceID: 3688}
+    - Class: 114
+      Script: {instanceID: 3882}
+    - Class: 114
+      Script: {instanceID: 4014}
+    - Class: 114
+      Script: {instanceID: 4038}
+    - Class: 114
+      Script: {instanceID: 4078}
+    - Class: 114
+      Script: {instanceID: 4100}
+    - Class: 114
+      Script: {instanceID: 4232}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: cc0efa6ef3f601c00f00c239a14f92ec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Castle
+  - hash:
+      serializedVersion: 2
+      Hash: 3c1be37cdbc0f948a3bf53258c6ef03d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Path
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: ca4bb1d2576d9ef31a76c204a93dd7b4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SimpleEnemySpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 324932e6515ce76b47a9a40ae45838c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TowerUpgradeController
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: c683e9c8cdcdfd33bc9c244615985ce1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TowerManager
+  - hash:
+      serializedVersion: 2
+      Hash: 06a429495b7fe7685550a23e28c78d87
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyWaveSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 27ec3360f0c0a6803ba71cc3106480b8
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: c10552d9a50a16fce1f5be0616939c4a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LevelSelectController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 9b19f224ede116eb678f10d01bd72a05
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LevelSelectButton
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 91d258529db2b5060a913f2afcea1a21
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 68f13b96de31d05fbe10b70dbe685c43
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyController
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 968322b7b060c495a0139fd5dd370fbe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ProjectileTower
+  - hash:
+      serializedVersion: 2
+      Hash: aa436833f30ca16b606ed7be1c3e1899
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Projectile
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: cfebbcd3ae3c83db78ba68e31c925e00
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 2f8952e5de279b648d6aac3eb23732e9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoneyManager
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 5bddb32bcb848f51c6efb9a0b86ba855
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SimpleRotate
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 466e55a7afa02cc66579b949bafa146c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BombTower
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 83b223f07fc3dcdb14fe186e302e3850
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tower
+  - hash:
+      serializedVersion: 2
+      Hash: 14fa4d707a851874ad9c946d1ea80f3f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyHealthController
+  - hash:
+      serializedVersion: 2
+      Hash: f7db1db7c4e92b5b8a7a4486ab2d1f58
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioManagerLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RemoveParentAtStart
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: fb789b65be673425021c85958987dd4b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TowerButton
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 8fbc134fd506d97c845cf2b715231396
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 10f96c23098d5fa00e8db3ed3570a197
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SlowdownTower
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 0a4236fcddd8bd85209d8898868c2461
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIController
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 10983686db52f8c1cd20d6ea824ae082
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TowerUpgradePanel
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 8110e0c363898a3b6e2a7c990903a97b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Bomb
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: f691c22d58bd595ba18694e1ba84f927
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LevelManager
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: b8962b7722bbf0202c27f45476bba9f1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioManager
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/Main Menu.unity
+  - Assets/Scenes/Test 1.unity
+  - Assets/Scenes/Level Select.unity
+  - Assets/Scenes/Test 2.unity
+  - Assets/Scenes/Test 3.unity
+  - Assets/Scenes/Test 4.unity
+  - Assets/Scenes/Test 5.unity
+  playerPath: "C:/Users/KamilPC/Downloads/IN\u017BYNIERKA/Projekt_In\u017Cynierski/Towers
+    of Defencopolis.exe"
